@@ -25,7 +25,7 @@ module.exports = function (application) {
                         res.status(500).send(error);
                     } else {
                         console.log('professor criado!!!');
-                        res.redirect('/informacao/professores');
+                        res.redirect('/admin/crud_professores');
                     }
                 });
             } catch (error) {
